@@ -10,28 +10,38 @@ const Home = () => {
     <div className="container">
       <Header />
       <section className="intro-section">
-        <div className="intro-container">
+        <div className="intro-container rn-div align-center">
           <div className="main-title-container">
-            <h1 className="main-title">Catchy Title</h1>
+            <h1 className="main-title title">
+              Transform Your Idea To Digital Prototype
+            </h1>
             <div className="main-title-des-container">
-              <p className="main-title-des">Description for Catchy Title</p>
+              <p className="main-title-des des text-light">
+                <span className="des-marker">~</span>
+                Perfect canvas to build your idea digitally
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section className="service-section">
-        <div className="service-container">
+        <div className="service-container rn-div align-center">
           <div className="main-title-container">
-            <h1 className="main-title">Our role</h1>
-            <div className="main-title-des-container">
-              <p className="main-title-des">Description for Our role</p>
+            <h1 className="main-title title">
+              We Will Help You To Build Your Digital Prototype
+            </h1>
+            <div className="main-title-des-container text-light">
+              <p className="main-title-des des">
+                <span className="des-marker">~</span>
+                Build our low cost digital prototype with us
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section className="form-section">
-        <div className="form-container">
-          <form>
+        <div className="form-container flex justify-center">
+          <form className="form-card">
             <InputField label="Name" placeholder="Enter your name" />
             <InputField
               label="Age"
@@ -43,7 +53,9 @@ const Home = () => {
               <label>Description :</label>
               <textarea rows={10} placeholder="Enter your need description" />
             </div>
-            <button>Submit</button>
+            <div className="flex justify-center">
+              <input type="submit"></input>
+            </div>
           </form>
         </div>
       </section>

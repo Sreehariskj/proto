@@ -1,7 +1,12 @@
 .footer-container {
-  position: fixed;
-  width: 100vw;
+  /* position: fixed;
+  bottom: 0; */
+  /* width: 100vw; */
   background-color: whitesmoke;
-  bottom: 0;
   height: 6rem;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+.copy-text {
+  font-size: 0.9rem;
 }

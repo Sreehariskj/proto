@@ -3,3 +3,22 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.flex {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.text-light {
+  color: darkslategray;
+}
+.rn-div {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
